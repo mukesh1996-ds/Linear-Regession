@@ -278,3 +278,76 @@ Name: MEDV, Length: 506, dtype: float64
  * Debugger is active!
  * Debugger PIN: 137-891-507
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+
+
+ # GIT Command
+ (ml) G:\Machine Learning Project\model\linear_regression>git init
+Initialized empty Git repository in G:/Machine Learning Project/model/linear_regression/.git/
+
+(ml) G:\Machine Learning Project\model\linear_regression>git add *
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in app.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in data/housing.csv.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in templates/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in templates/results.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in visualization/.ipynb_checkpoints/Plot-checkpoint.ipynb.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in visualization/Plot.ipynb.
+The file will have its original line endings in your working directory
+
+(ml) G:\Machine Learning Project\model\linear_regression>git commit -m "Coding in Modular Fashion"
+[master (root-commit) bf33dfe] Coding in Modular Fashion
+ 32 files changed, 1415 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 app.py
+ create mode 100644 data/housing.csv
+ create mode 100644 linear_model.pickle
+ create mode 100644 load_data/__init__.py
+ create mode 100644 load_data/__pycache__/__init__.cpython-37.pyc
+ create mode 100644 load_data/__pycache__/data.cpython-37.pyc
+ create mode 100644 load_data/data.py
+ create mode 100644 lr_model/__init__.py
+ create mode 100644 lr_model/__pycache__/__init__.cpython-37.pyc
+ create mode 100644 lr_model/__pycache__/liner_model_development.cpython-37.pyc
+ create mode 100644 lr_model/liner_model_development.py
+ create mode 100644 model.py
+ create mode 100644 operation/__init__.py
+ create mode 100644 operation/__pycache__/__init__.cpython-37.pyc
+ create mode 100644 operation/__pycache__/basic_operation.cpython-37.pyc
+ create mode 100644 operation/basic_operation.py
+ create mode 100644 outerlier/__init__.py
+ create mode 100644 outerlier/__pycache__/__init__.cpython-37.pyc
+ create mode 100644 outerlier/__pycache__/outerlier.cpython-37.pyc
+ create mode 100644 outerlier/outerlier.py
+ create mode 100644 templates/index.html
+ create mode 100644 templates/results.html
+ create mode 100644 vif/__init__.py
+ create mode 100644 vif/__pycache__/__init__.cpython-37.pyc
+ create mode 100644 vif/__pycache__/vif.cpython-37.pyc
+ create mode 100644 vif/vif.py
+ create mode 100644 visualization/.ipynb_checkpoints/Plot-checkpoint.ipynb
+ create mode 100644 visualization/Plot.ipynb
+ create mode 100644 visualization/boxplot.png
+ create mode 100644 visualization/heatmap.png
+ create mode 100644 visualization/histgram.png
+
+(ml) G:\Machine Learning Project\model\linear_regression>git branch -M main
+
+(ml) G:\Machine Learning Project\model\linear_regression>git remote add origin https://github.com/mukesh1996-ds/Linear-Regession.git
+
+(ml) G:\Machine Learning Project\model\linear_regression>git push -u origin main
+Enumerating objects: 44, done.
+Counting objects: 100% (44/44), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (41/41), done.
+Writing objects: 100% (44/44), 448.94 KiB | 3.45 MiB/s, done.
+Total 44 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/mukesh1996-ds/Linear-Regession.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
